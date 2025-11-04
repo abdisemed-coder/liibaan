@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liibaan Group</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function validateRecaptcha() {
+            var response = grecaptcha.getResponse();
+            if (response.length == 0) {
+                alert("Please complete the reCAPTCHA");
+                return false;
+            }
+            // reCAPTCHA is verified
+            return true;
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Liibaan Group Logo">
+                <span>Liibaan Group</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#arrivals">New Arrivals</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Order now</a></li>
+
+                </ul>
+            </nav>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Liibaan Group</h1>
+            <p>Your trusted source for wholesale products.</p>
+            <a href="#products" class="cta-button">View Products</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Liibaan General Trading is a leading national distributor of different products. Established in 1990 and
+            headquartered in Hargeisa, the company has grown to become one of the largest independent wholesale
+            distributors in Somaliland.</p>
+
+        <h2>Team</h2>
+        <p>Liibaan Wholesale is led by CEO Faisal Aden, who has over 40 years of experience in the wholesale
+            distribution industry. The executive team also includes the CFO, COO, and heads of sales, procurement, and
+            logistics</p>
+        <h2>Testimonials</h2>
+        <p>"Liibaan General Trading has been our go-to wholesale supplier for years. Their products are reliable, their
+            service is exceptional, and their team is always willing to go the extra mile."
+            <br> - Mohamed Mahmoud
+            <br><br>
+            "We switched to Liibaan General Trading for their amazing customer service and quality products. Workers at
+            Liibaan general trading are hardworking, disciplined and we've been incredibly impressed with their
+            expertise and ability to deliver exactly what we require." <br> - Mustafa Yusuf
+        </p>
+    </section>
+
+
+    <section class="arrivals" id="arrivals">
+        <h2>New Arrivals</h2>
+        <div class="arrival-list">
+            <div class="arrival-item">
+                <video controls>
+                    <source src="videos/arrivals.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="arrival-content">
+                    <span class="date">June 15, 2024</span>
+                    <h3>New Arrivals</h3>
+                    <p>We are excited to announce the arrival of new products! Check out the details below:</p>
+                    <ul>
+                        <li>SHANI - 300ML</li>
+                        <li>7up - 300ML</li>
+                        <li>MIRINDA ORANGE - 300ML</li>
+                        <li>MIRINDA APPLE - 300ML</li>
+                        <li>PEPSI - 300ML</li>
+                        <li>PEPSI DIET - 300ML</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="arrival-item">
+                <img src="images/milk-arrivals.jpg" alt="">
+                <div class="arrival-content">
+                    <span class="date">June 15, 2024</span>
+                    <h3>New Arrivals</h3>
+                    <p>We are excited to announce the arrival of new products! Check out the details below:</p>
+                    <ul>
+                        <li>SHANI - 300ML</li>
+                        <li>7up - 300ML</li>
+                        <li>MIRINDA ORANGE - 300ML</li>
+                        <li>MIRINDA APPLE - 300ML</li>
+                        <li>PEPSI - 300ML</li>
+                        <li>PEPSI DIET - 300ML</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products" id="products">
+        <h2>Products & Services</h2>
+        <section class="services" id="services">
+            <p>Liibaan General Trading offers a comprehensive range of products to meet diverse customer needs. Our
+                product
+                portfolio includes products from:
+            </p>
+            <ul>
+                <li>SADAFCO</li>
+                <li>Simsek</li>
+                <li>Al Shifa</li>
+            </ul>
+            <p>We also provide exceptional customer service, including:</p>
+            <ul>
+                <li>Quick delivery</li>
+                <li>Technical Support</li>
+                <li>After-Sales</li>
+            </ul>
+        </section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Product slides go here -->
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/saudi-milk-powder.jpeg" alt="Saudi Milk Powder">
+                        <h3>Saudi Milk Powder</h3>
+                        <p>Convenient and versatile, Saudi Instant Milk Powder dissolves quickly in water, providing the
+                            same nutritional value and creamy texture as fresh milk, perfect for on-the-go use.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/saudi-whole-milk.jpeg" alt="Saudi Whole Milk">
+                        <h3>Saudi Whole Milk</h3>
+                        <p>Rich and creamy, Saudi Whole Milk is packed with essential nutrients like proteins and
+                            calcium, ideal for daily consumption and known for its delicious flavor.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/saudi-low-fat-milk.jpeg" alt="Saudi Low-Fat Milk">
+                        <h3>Saudi Low-Fat Milk</h3>
+                        <p>A lighter option with reduced fat content, Saudi Low-Fat Milk retains the nutritious benefits
+                            of whole milk, offering a refreshing taste and essential calcium.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/shifa-honey.png" alt="Al Shifa Honey">
+                        <h3>Al Shifa Honey</h3>
+                        <p>Al Shifa Honey blends the finest varieties from around the world, known for its exceptional
+                            quality and rich flavor. Ideal for culinary use and everyday enjoyment.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/6x1.75l-drinks.png" alt="Pepsi, 7UP, Mirinda Orange">
+                        <h3>Pepsi, 7UP, Mirinda Orange</h3>
+                        <p>Perfect for enjoying your downtime with family and friends.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/6x250ml-rock-star.png" alt="Rockstar">
+                        <h3>Rockstar</h3>
+                        <p>Energy drink for those with grit, passion, and determination, featuring caffeine, taurine, B
+                            vitamins, guarana, and ginseng.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/6x320ml-lipton-ice-tea.png" alt="Lipton Ice Tea">
+                        <h3>Lipton Ice Tea</h3>
+                        <p>A refreshing drink, perfect for sunny days.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/24x300ml-can-drinks.png" alt="Pepsi, 7UP, Mirinda, Shani, MtnDew">
+                        <h3>Pepsi, 7UP, Mirinda, Shani, MtnDew</h3>
+                        <p>Great for refreshment on-the-go.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/24x300ml-frutz-drinks.png" alt="Frutz">
+                        <h3>Frutz</h3>
+                        <p>A combination of natural fruit juice and sparkling fizz, available in various flavors.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/24x500ml-drinks.png"
+                            alt="Pepsi, 7UP, Mirinda Orange, Mirinda Citrus, Shani, MtnDew">
+                        <h3>Pepsi, 7UP, Mirinda Orange, Mirinda Citrus, Shani, MtnDew</h3>
+                        <p>Enjoyed worldwide.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/30x150ml-drinks.png" alt="Pepsi, 7UP, Mirinda Orange, Shani">
+                        <h3>Pepsi, 7UP, Mirinda Orange, Shani</h3>
+                        <p>Perfect for family dinners and parties.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product-item">
+                        <img src="images/30x250ml-drinks.png"
+                            alt="Pepsi, 7UP, Mirinda Citrus, Mirinda Orange, Shani, MtnDew">
+                        <h3>Pepsi, 7UP, Mirinda Citrus, Mirinda Orange, Shani, MtnDew</h3>
+                        <p>Perfect for family dinners and parties.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-wrapper">
+
+            <div class="contact-details">
+                <h2>Contact Us</h2>
+                <p>For any inquiries, reach us at:</p>
+                <h3>Hargeisa</h3>
+                <p>Phone: +252 63 8777794</p>
+                <p>Email: info@liibaangroup.com</p>
+                <p>Address: Main Road 1, New Hargeisa, near Markiska Tabliiqa</p>
+                <h3>Burao</h3>
+                <p>Phone: +252 63 8777794</p>
+                <p>Email: info@liibaangroup.com</p>
+                <p>Address: Suuqa hoose, near Dahabshiil bank</p>
+            </div>
+            <div class="order-form">
+                <h2>Order Products</h2>
+                <p>Fill out the form below to place an order.</p>
+                <form onsubmit="handleFormSubmission(event)">
+                    <label for="name"> Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="productDetails">Product Details:</label>
+                    <textarea id="productDetails" name="productDetails" required></textarea>
+
+                    <div class="g-recaptcha" data-sitekey="6LcVKAAqAAAAAC7OaKZ8LWJ_zPthjSIbUQ49rQg_"></div>
+
+                    <button type="submit" class="center-button">Submit Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/people/Liibaan-Group/61550800618592/" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p>&copy; 2024 Liibaan Group. All rights reserved.</p> 
+        <p class="credit"> Developed By <a href="https://www.codekaab.com" target="_blank">Codekaab</a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
